@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double:wght@100..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lavishly+Yours&family=Monsieur+La+Doulaise&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Four card feature section</title>
+
+ 
+</head>
+<body>
+  <header>
+    <p class="title">Reliable, efficient delivery</p>
+    <p class="sub-title">Powered by Technology</p>
+
+    <p class="describe">Our Artificial Intelligence powered tools use millions of project data points 
+      to ensure that your project is successful</p>
+  </header>
+  <!-- <main>
+     
+      <div class="container grid">
+          <div class="card1 card" >
+          <p class="card-title">Supervisor</p>
+           <p class="card-sub">Monitors activity to identify project roadblocks</p>
+           <img src="./images/icon-supervisor.svg" class="icon">
+          </div>
+          <div class="middle-cards  " >
+            <div class="card2 card">
+            <p class="card-title">Team Builder</p>
+            <p class="card-sub">Scans our talent network to create the optimal team for your project</p>
+            <img src="./images/icon-team-builder.svg" class="icon">
+            </div>
+
+            <div class="card3 card" >
+            <p class="card-title">Karma</p>
+             <p class="card-sub">Regularly evaluates our talent to ensure quality</p>
+             <img src="./images/icon-karma.svg" class="icon">
+            </div>
+          </div>
+          <div class="card4 card" >
+          <p class="card-title">Calculator</p>
+           <p class="card-sub">Uses data from past projects to provide better delivery estimates</p>
+           <img src="./images/icon-calculator.svg" class="icon">
+          </div>
+    </div>  
+ </main> -->
+ <main>
+  <div class="container grid">
+    <div class="card card1" data-area="supervisor">
+      <div class="icon-wrap"><img src="./images/icon-supervisor.svg" alt="" class="icon"></div>
+      <p class="card-title">Supervisor</p>
+      <p class="card-sub">Monitors activity to identify project roadblocks</p>
+    </div>
+
+    <div class="card card2" data-area="team">
+      <div class="icon-wrap"><img src="./images/icon-team-builder.svg" alt="" class="icon"></div>
+      <p class="card-title">Team Builder</p>
+      <p class="card-sub">Scans our talent network to create the optimal team for your project</p>
+    </div>
+
+    <div class="card card3" data-area="karma">
+      <div class="icon-wrap"><img src="./images/icon-karma.svg" alt="" class="icon"></div>
+      <p class="card-title">Karma</p>
+      <p class="card-sub">Regularly evaluates our talent to ensure quality</p>
+    </div>
+
+    <div class="card card4" data-area="calculator">
+      <div class="icon-wrap"><img src="./images/icon-calculator.svg" alt="" class="icon"></div>
+      <p class="card-title">Calculator</p>
+      <p class="card-sub">Uses data from past projects to provide better delivery estimates</p>
+    </div>
+  </div>
+</main>
+
+</body>
+</html>
